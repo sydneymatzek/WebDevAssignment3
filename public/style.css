@@ -1,0 +1,87 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #EFD9D9;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center the container */
+.game-container {
+    text-align: center;
+    background-color: lightgray;
+    padding: 100px;
+    box-shadow: 0 10px 10px darkgray;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Title styling */
+.game-container h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+/* Subheading styling */
+.game-container h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+/* Styling for the input box and button */
+#guessInput {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+    width: 70%;
+    max-width: 250px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: darkmagenta;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(217, 185, 247);
+}
+
+/* Info and feedback boxes styling */
+.info-box, .feedback-box {
+    margin-top: 20px;
+    padding: 20px;
+    /* background-color: #333333; */
+    background-color: pink;
+    border-radius: 10px;
+    font-size: 1rem;
+    /* color: #d3d3d3; */
+    color: pink;
+}
+
+/* Highlight feedback */
+.feedback-box {
+    font-weight: bold;
+    color: darkmagenta;
+    border: 1px solid darkmagenta;
+}
+
+/* High score feedback styling */
+#highScore {
+    font-style: italic;
+    color: #ffffff;
+}
